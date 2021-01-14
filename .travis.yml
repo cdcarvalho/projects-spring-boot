@@ -4,4 +4,4 @@ jdk:
 sudo: true
 dist: trusty
 
-script: mvn clean install -Dmaven.test.skip -q -B -V 
+script: mvn install -Dmaven.test.skip=true
