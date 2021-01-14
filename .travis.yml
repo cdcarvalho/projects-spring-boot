@@ -1,6 +1,10 @@
 language: java
 jdk:
+<<<<<<< HEAD
   - openjdk8
 
 script:
  -  mvn -Dplugin=install help:describe
+=======
+ - openjdk8
+>>>>>>> 14747583031e66205ee6a11ea308f31c18259a97
