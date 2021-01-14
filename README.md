@@ -2,3 +2,7 @@
 
 # Ponto Eletrônico
 Projetos - Estudos Sobre Spring Boot
+
+1. Utilizando Spring Boot, JPA, JWT.
+2. Flyway
+3. Travis CI
