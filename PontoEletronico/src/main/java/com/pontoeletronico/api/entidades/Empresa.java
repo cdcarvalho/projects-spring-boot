@@ -19,8 +19,8 @@ import lombok.Setter;
 
 @Entity
 @Getter @Setter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "TB_EMPRESA")
 public class Empresa implements Serializable {
 	
