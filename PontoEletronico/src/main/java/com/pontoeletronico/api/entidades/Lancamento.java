@@ -20,7 +20,15 @@ import javax.persistence.TemporalType;
 
 import com.pontoeletronico.api.enums.TipoEnum;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 @Entity
+@Getter @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "TB_LANCAMENTO")
 public class Lancamento implements Serializable {
 	
